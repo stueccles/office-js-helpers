@@ -231,12 +231,23 @@ export class Authenticator {
             xhr.setRequestHeader('Accept', 'application/json');
             xhr.setRequestHeader('Content-Type', 'application/json');
 
+            if (endpoint.grantType != null) {
+              data.grantType = endpoint.grantType;
+            }
+
             for (let header in headers) {
                 if (header === 'Accept' || header === 'Content-Type') {
                     continue;
                 }
 
                 xhr.setRequestHeader(header, headers[header]);
+            }
+
+            let extraHeaders = endpoint.extraHeaders;
+            if (extraHeaders != null) {
+              for (let header in extraHeaders) {
+                  xhr.setRequestHeader(header, extraHeaders[header]);
+              }
             }
 
             xhr.onerror = () => {

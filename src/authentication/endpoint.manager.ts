@@ -69,10 +69,20 @@ export interface IEndpointConfiguration {
     responseType?: string;
 
     /**
+     * OAuth grantType.
+     */
+    grantType?: string;
+
+    /**
      * Additional object for query parameters.
      * Will be appending them after encoding the values.
      */
     extraQueryParameters?: { [index: string]: string };
+
+    /**
+     * Additional object for headers.
+     */
+    extraHeaders?: { [index: string]: string };
 }
 
 /**

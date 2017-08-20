@@ -18,6 +18,7 @@ export interface ICode {
     code: string;
     scope?: string;
     state?: string;
+    grantType?: string;
 }
 
 export interface IError {
