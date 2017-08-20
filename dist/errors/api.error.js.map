@@ -1,0 +1,1 @@
+{"version":3,"file":"api.error.js","sourceRoot":"","sources":["../../src/errors/api.error.ts"],"names":[],"mappings":"AAAA,mFAAmF;;;;;;;;;;;;;AAEnF,+CAA6C;AAE7C;;GAEG;AACH;IAA8B,4BAAW;IACrC;;;;;MAKE;IACF,kBAAY,OAAe,EAAS,UAAkB;QAAtD,YACI,kBAAM,UAAU,EAAE,OAAO,EAAE,UAAU,CAAC,SACzC;QAFmC,gBAAU,GAAV,UAAU,CAAQ;;IAEtD,CAAC;IACL,eAAC;AAAD,CAAC,AAVD,CAA8B,0BAAW,GAUxC;AAVY,4BAAQ"}

@@ -56,7 +56,5 @@ test
 node_modules/**
 typings/**
 npm-debug.log
-dist/**
-dts/**
 bundle/**
 demo/**
